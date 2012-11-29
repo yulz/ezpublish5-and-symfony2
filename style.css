@@ -9,6 +9,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Rambla';
+    src: url('fonts/rambla/Rambla-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -61,7 +68,8 @@ table {
     border-spacing: 0;
 }
 body {
-    font-family: 'LeagueGothicRegular', sans-serif;
+    /*font-family: 'LeagueGothicRegular', sans-serif;*/
+    font-family: 'Rambla', sans-serif;
     min-height: 740px;
     color:#555;
     background-image:url("ui/light_wool.png");
@@ -155,8 +163,8 @@ h1{
     -o-box-sizing:      border-box;
     box-sizing:         border-box;
 
-    font-family: 'LeagueGothicRegular', sans-serif;
-    font-size: 70px;
+    /*font-family: 'LeagueGothicRegular', sans-serif;*/
+    font-size: 60px;
     line-height: 1.5;
 }
 
@@ -228,7 +236,7 @@ h1{
 }
 .big {
     text-align: center;
-    font-size: 200px;
+    font-size: 180px;
     /*line-height: 1.2em;*/
 }
 .small {
