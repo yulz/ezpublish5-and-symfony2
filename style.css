@@ -41,6 +41,16 @@ body {
 ol, ul {
     list-style: none;
 }
+<<<<<<< HEAD
+=======
+
+li {
+    list-style-type: circle;
+    margin-left: 1em;
+    font-size: 0.7619em;
+}
+
+>>>>>>> gh-pages
 blockquote, q {
     quotes: none;
 }
@@ -58,8 +68,11 @@ body {
     min-height: 740px;
     color:#555;
     background-image:url("ui/light_wool.png");
+<<<<<<< HEAD
     /*color: #2f2f2f;*/
     /*text-transform: uppercase;*/
+=======
+>>>>>>> gh-pages
 }
 
 b, strong { font-weight: bold }
@@ -87,12 +100,28 @@ a:focus {
 
 h1{
 	text-align: center;
+<<<<<<< HEAD
 	border-top: 3px solid;
+=======
+	border-top: 3px solid #304f7e;
+>>>>>>> gh-pages
 	border-bottom: 3px solid #304f7e;
 }
 
 .blue{
+<<<<<<< HEAD
 	color: #276dc7;
+=======
+	color: #304f7e;
+}
+
+.red{
+    color: #6D0019;
+}
+
+.faded{
+    color: #C8C8C5;
+>>>>>>> gh-pages
 }
 
 .header{
@@ -147,9 +176,19 @@ h1{
     line-height: 1.5;
 }
 
+<<<<<<< HEAD
 .impress-enabled .step {
     margin: 0;
     opacity: 0.05;
+=======
+.step.big{
+ line-height: 1;   
+}
+
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0;
+>>>>>>> gh-pages
 
     -webkit-transition: opacity 1s;
     -moz-transition:    opacity 1s;
@@ -180,6 +219,26 @@ h1{
     line-height: 80px;
     letter-spacing: -1px;
 }
+<<<<<<< HEAD
+=======
+
+.quote{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+
+    color: rgb(102, 102, 102);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    padding: 30px 55px;
+    font-style: italic;
+    font-family: 'LeagueGothicRegular', sans-serif;
+    font-size: 70px;
+    line-height: 0.85em;
+}
+
+>>>>>>> gh-pages
 .hidden {
     opacity:0;
 }
@@ -193,17 +252,41 @@ h1{
     text-align: right;
 }
 .big {
+<<<<<<< HEAD
     width: auto;
 }
 .small {
     font-size: 40px;
     text-align: center;
+=======
+    text-align: center;
+    font-size: 200px;
+    /*line-height: 1.2em;*/
+}
+.small {
+    font-size: 40px;
+>>>>>>> gh-pages
 }
 .huge {
     font-size: 315px;
     line-height: 297px;
 }
 
+<<<<<<< HEAD
+=======
+.bottom{
+    padding-top: 230px;
+}
+
+.cleverlogo{
+    padding-top: 130px;
+}
+
+table td{
+    width: 320px;
+}
+
+>>>>>>> gh-pages
 .logos{
 	text-align: center;
 	padding-bottom: 10px;
@@ -225,6 +308,13 @@ h1{
     text-transform: lowercase;
 }
 
+<<<<<<< HEAD
+=======
+.center {
+    text-align: center;
+}
+
+>>>>>>> gh-pages
 #overview { display: none }
 
 .impress-on-overview .step {
@@ -233,4 +323,94 @@ h1{
 }
 
 .impress-enabled          { pointer-events: none }
+<<<<<<< HEAD
 .impress-enabled #impress { pointer-events: auto }
+=======
+.impress-enabled #impress { pointer-events: auto }
+
+/** PRETTIFY **/
+
+pre {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #304f7e;
+    font-family: "Source Code Pro" !important;
+    font-size: 0.42857em !important;
+    line-height: 1.38em;
+}
+
+pre code{text-shadow:none}
+
+pre.prettyprint{
+    background-color:#fdf6e3;
+    padding:10px;
+    border:1px solid #E1E1E8
+}
+
+pre ol.linenums li {
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 1em;
+    line-height: 1.35em;
+    list-style-position: inside;
+}
+
+.example pre.prettyprint {
+margin-bottom: 20px;
+position: relative;
+}
+
+ol.linenums{
+    color:#4c666c
+}
+
+ol.linenums li{
+    line-height:18px;
+    padding-left:12px;
+    list-style-type:decimal;
+    color:#cecece
+}
+
+ol.linenums li{
+    margin-left:0;
+    padding-left:0;
+    font-size:1em;
+    line-height:1.35em;
+    list-style-position:inside
+}
+
+pre.prettyprint.lang-javascript:after{
+    background-image:-webkit-linear-gradient(-45deg, #ffa84c 0%,#ff7b0d 100%);
+    background-image:-moz-linear-gradient(-45deg, #ffa84c 0%,#ff7b0d 100%);
+    background-image:-o-linear-gradient(-45deg, #ffa84c 0%,#ff7b0d 100%);
+    background-image:linear-gradient(-45deg, #ffa84c 0%,#ff7b0d 100%);
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    font-size:30px;
+    font-family:'Lobster';
+    line-height:1.85em;
+    color:#fff;
+    text-shadow:0 -1px 0 rgba(0,0,0,0.35);
+    text-align:center
+}
+
+.kwd {
+color: #859900;
+}
+
+.pln {
+color: #BD3613;
+}
+
+.pun {
+color: #839496;
+}
+
+.pln {
+color: #BD3613;
+}
+
+.str {
+color: #269186;
+}
+>>>>>>> gh-pages
