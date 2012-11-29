@@ -41,8 +41,6 @@ body {
 ol, ul {
     list-style: none;
 }
-<<<<<<< HEAD
-=======
 
 li {
     list-style-type: circle;
@@ -50,7 +48,6 @@ li {
     font-size: 0.7619em;
 }
 
->>>>>>> gh-pages
 blockquote, q {
     quotes: none;
 }
@@ -68,11 +65,6 @@ body {
     min-height: 740px;
     color:#555;
     background-image:url("ui/light_wool.png");
-<<<<<<< HEAD
-    /*color: #2f2f2f;*/
-    /*text-transform: uppercase;*/
-=======
->>>>>>> gh-pages
 }
 
 b, strong { font-weight: bold }
@@ -100,18 +92,11 @@ a:focus {
 
 h1{
 	text-align: center;
-<<<<<<< HEAD
-	border-top: 3px solid;
-=======
 	border-top: 3px solid #304f7e;
->>>>>>> gh-pages
 	border-bottom: 3px solid #304f7e;
 }
 
 .blue{
-<<<<<<< HEAD
-	color: #276dc7;
-=======
 	color: #304f7e;
 }
 
@@ -121,7 +106,6 @@ h1{
 
 .faded{
     color: #C8C8C5;
->>>>>>> gh-pages
 }
 
 .header{
@@ -176,11 +160,6 @@ h1{
     line-height: 1.5;
 }
 
-<<<<<<< HEAD
-.impress-enabled .step {
-    margin: 0;
-    opacity: 0.05;
-=======
 .step.big{
  line-height: 1;   
 }
@@ -188,7 +167,6 @@ h1{
 .impress-enabled .step {
     margin: 0;
     opacity: 0;
->>>>>>> gh-pages
 
     -webkit-transition: opacity 1s;
     -moz-transition:    opacity 1s;
@@ -219,8 +197,6 @@ h1{
     line-height: 80px;
     letter-spacing: -1px;
 }
-<<<<<<< HEAD
-=======
 
 .quote{
     background-color: white;
@@ -238,7 +214,6 @@ h1{
     line-height: 0.85em;
 }
 
->>>>>>> gh-pages
 .hidden {
     opacity:0;
 }
@@ -252,28 +227,19 @@ h1{
     text-align: right;
 }
 .big {
-<<<<<<< HEAD
-    width: auto;
-}
-.small {
-    font-size: 40px;
-    text-align: center;
-=======
     text-align: center;
     font-size: 200px;
     /*line-height: 1.2em;*/
 }
 .small {
     font-size: 40px;
->>>>>>> gh-pages
 }
+
 .huge {
     font-size: 315px;
     line-height: 297px;
 }
 
-<<<<<<< HEAD
-=======
 .bottom{
     padding-top: 230px;
 }
@@ -286,7 +252,6 @@ table td{
     width: 320px;
 }
 
->>>>>>> gh-pages
 .logos{
 	text-align: center;
 	padding-bottom: 10px;
@@ -308,13 +273,10 @@ table td{
     text-transform: lowercase;
 }
 
-<<<<<<< HEAD
-=======
 .center {
     text-align: center;
 }
 
->>>>>>> gh-pages
 #overview { display: none }
 
 .impress-on-overview .step {
@@ -323,9 +285,6 @@ table td{
 }
 
 .impress-enabled          { pointer-events: none }
-<<<<<<< HEAD
-.impress-enabled #impress { pointer-events: auto }
-=======
 .impress-enabled #impress { pointer-events: auto }
 
 /** PRETTIFY **/
@@ -413,4 +372,3 @@ color: #BD3613;
 .str {
 color: #269186;
 }
->>>>>>> gh-pages
